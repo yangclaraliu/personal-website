@@ -1,0 +1,61 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'Yang Liu'
+theme: 'PaperMod'
+
+
+menu:
+  main:
+    - identifer: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifer: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: teaching
+      name: Teaching
+      url: /teaching/
+      weight: 24
+    - identifier: presentations
+      name: Presentations
+      url: /presentations/
+      weight: 25
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: cooking
+      name: Cooking
+      url: /cooking/
+      weight: 35
+
+params:
+  profileMode:
+    enabled: true
+    title: "Yang Liu, PhD"
+    subtitle: "Assistant Professor @ the London School of Hygiene & Tropical Medicine"
+    imageUrl: "img/IMG_1681.jpg"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: ORCID
+        url: https://orcid.org/0000-0002-9368-0425
+      - name: Full CV
+        url: /categories/
+  socialIcons:
+    - name: github
+      url: https://github.com/yangclaraliu
+    - name: linkedin
+      url: https://www.linkedin.com/in/yangclaraliu/
+    - name: twitter
+      url: https://twitter.com/yangliubeijing
+    - name: googlescholar
+      url: https://scholar.google.com/citations?user=xvJyBgMAAAAJ&hl=en
+    - name: email
+      url: "mailto: yang.liu@lshtm.ac.uk"
